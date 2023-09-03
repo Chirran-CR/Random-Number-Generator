@@ -20,6 +20,7 @@ class MyFormWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("val of fn is: $intFnValMax");
     return Form(
       key: formKey,
       child: Padding(
